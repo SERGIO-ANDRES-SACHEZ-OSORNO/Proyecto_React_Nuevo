@@ -1,0 +1,73 @@
+.navbar{
+    /* background-color: gray; */
+    background-color: rgb(65, 117, 178,0.5);
+    /* 
+    65, 117, 178,0.5
+    105, 125, 148
+    Fondo para fotos
+    183, 199, 218
+    */
+
+
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+    color: white;
+}
+.nav_items li{
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+}
+.nav_items li a{
+    margin: 15px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+  
+}
+.nav_items li ul{
+    /* margin: 10px; */
+    position: absolute;  
+    list-style: none; 
+    text-align:;  
+}
+.nav_items li ul li{
+
+    width: 200px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+.nav_items li ul li a{
+    width: 500px;
+    position: relative;
+  /* background-color: yellow; */
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    direction: column;
+    text-decoration: none;
+    list-style: none;
+    display: none;
+    right: 40px;
+    top: 20px;
+}
+.nav_items li ul:hover li a{
+    display: block;
+    color: white;
+}
+.nav_toggle {
+    display: none;
+   
+    
+}

@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable no-unused-vars */
 import React from "react"
 import "./Navbar.css"
 
@@ -31,12 +29,23 @@ const Navbar =()=>{
                 </ul></li>           
           
         </section>
+        {/* <section className="redes">
+          
+                <li><a href="#" className="icon-mail4"></a>mail4</li>
+                <li><a href="#" className="icon-whatsapp"></a>whatsapp</li>
+                <li><a href="#" className="icon-facebook"></a>facebook</li>
+                <li><a href="#" className="icon-instagram"></a>instagram</li>
+                <li><a href="#" className="icon-google-plus"></a>google-plus</li>
+                <li><a href="#" className="icon-twitter"></a>twitter</li>
+                <li><a href="#" className="icon-youtube2"></a>youtube2</li>
+            
+        </section> */}
         <section className="toggle">
             <span></span>
             <span></span>
             <span></span>
         </section>
-</section>
+    </section>
 
     )
 }

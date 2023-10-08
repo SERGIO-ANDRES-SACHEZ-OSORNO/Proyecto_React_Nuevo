@@ -1,5 +1,6 @@
 .navbar{
     /* background-color: gray; */
+    
     background-color: rgb(65, 117, 178,0.5);
     /* 
     65, 117, 178,0.5
@@ -10,7 +11,7 @@
 
 
     color: white;
-    height: 50px;
+    /* height: 50px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +26,7 @@
     position: relative;
     display: inline-flex;
     list-style: none;
+    /* left: 200px; */
 }
 .nav_items li a{
     margin: 15px;
@@ -32,13 +34,16 @@
     position: relative;
     text-decoration: none;
     list-style: none;
+    
+
   
 }
 .nav_items li ul{
     /* margin: 10px; */
     position: absolute;  
     list-style: none; 
-    text-align:;  
+    text-align:center;
+    /* right: 5px;   */
 }
 .nav_items li ul li{
 
@@ -53,13 +58,13 @@
     position: relative;
   /* background-color: yellow; */
     justify-content: space-between;
-    align-items: center;
-    color: white;
+    /* align-items: center; */
+    /* color: white; */
     direction: column;
     text-decoration: none;
     list-style: none;
     display: none;
-    right: 40px;
+    right: 90px;
     top: 20px;
 
 

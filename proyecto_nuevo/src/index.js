@@ -1,10 +1,13 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import components from './components';
+import imagenes from './components/Contenedor';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+ReactDOM.render(<components />, document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />

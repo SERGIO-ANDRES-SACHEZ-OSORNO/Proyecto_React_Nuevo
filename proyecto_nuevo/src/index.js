@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import components from './components';
-import imagenes from './components/Contenedor';
+// import imagenes from './components/Contenedor';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 ReactDOM.render(<components />, document.getElementById('root'));
 root.render(

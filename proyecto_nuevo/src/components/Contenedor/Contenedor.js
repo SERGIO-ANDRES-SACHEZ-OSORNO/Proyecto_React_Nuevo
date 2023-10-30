@@ -1,13 +1,13 @@
 import React from "react";
 import "../Contenedor/Contenedor.css";
-// import imagenes from '/proyecto_nuevo/src/components/Contenedor';
-import imagenes from '../../components/Imagenes/index';
+
+
 const Contenedor =()=> {
   return (
             <section className="img">
               <section className="img one">
-                {/* <h1>Caja 1</h1> */}
-                <img src={imagenes.Llavero} alt="Llavero" />
+              <h1>Caja 1</h1>
+                
               </section>
               <section className="img two">
                 <h1>Caja 2</h1>

@@ -1,7 +1,8 @@
 
-import './App.css'
+import './App.css';
+import './components/Contenedor/Contenedor.css';
 import Navbar from './components/Navbar/Navbar'
-import Contenedor from 'proyecto_nuevo/src/components/Contenedor'
+import Contenedor from './components/Contenedor/Contenedor'
 function App() {
   return (
     <section className="App">     
